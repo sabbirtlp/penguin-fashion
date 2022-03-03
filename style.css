@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fredoka', sans-serif;
+}
+p{
+    font-family: 'Fredoka', sans-serif;
+    font-size:16px;
+}
+a{
+    text-decoration:none;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+
+img{
+    width:100%;
+}
+.btn{
+    padding:15px 30px;
+    background:linear-gradient(#A4BC46,#85A019);
+    font-size:16px;
+    color:#fff;
+    border-radius:10px;
+    display: inline-block;
+    margin-top:30px;
+    transition:.3s;
+}
+.btn i{
+    margin-right:10px;
+}
+.btn:hover{
+    background:linear-gradient(#F9BD4E,#fac25b)
+}
+.section-title h2{
+    font-size:48px;
+    color:#363857;
+    text-transform: uppercase;
+}
+
+/* Header Area */
+.mobile-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding:10px 30px;
+    display: none;
+    background-color:#FFFAEF;
+}
+.mobile-header .mobile-logo img{
+    width:200px;
+}
+.mobile-header .humburger-icon{
+    display: inline-block;
+    padding:10px;
+    background-color:#F9BD4E;
+    color:#fff;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+.mobile-header .humburger-icon:hover{
+    background-color:#85A019;
+}
+.header{
+    background-color: #FFFAEF;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.logo img{
+    width:300px;
+}
+nav ul li{
+    display: inline-block;
+    margin:0 30px;
+}
+nav ul li a{
+    display: block;
+    font-size:20px;
+    text-transform:capitalize;
+    font-weight:500;
+    color:#3C3C3C;
+    transition:.3s;
+}
+nav ul li a:hover{
+    color:#A4BC46;
+}
+
+/* Hero Area */
+.hero{
+    padding:100px 0;
+    background-color: #FFFAEF;
+    height: 100vh;
+}
+.hero-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero .hero-left{
+    width:40%;
+}
+.hero .hero-left h2{
+    font-size:80px;
+    color:#363857;
+    text-transform:uppercase;
+}
+.hero .hero-left p{
+    color:#363857;
+    font-size:18px;
+}
+.hero .hero-right{
+    width:30%;
+}
+.hero .hero-right img{
+    width:450px;
+}
+/* Hero Area */
+
+
+/* Women Jacket  */
+.women-jacket, .men-jacket{
+    padding:100px 0;
+}
+.men-jacket{
+    background-color: #FFFAEF;
+}
+.products-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+.product-single{
+    flex: 0 0 30%;
+    max-width:30%;
+    background-color: #fff;
+    margin:0 15px;
+    box-shadow: 1px 1px 17px 0px rgb(225 225 225);
+    padding:20px;
+    border-radius:10px;
+}
+.product-single .product-img{
+    width:300px;
+    height:380px;
+    margin:0 auto;
+    padding:50px;
+    border-radius:10px;
+    background-color:#F1F1F1;
+}
+.product-single .product-title{
+    font-size:24px;
+    color:#363857;
+    margin:15px 0;
+    cursor:pointer;
+}
+.product-single .product-description{
+    font-size:16px;
+    color:#363857;
+    margin:15px 0;
+}
+.product-single .price-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-single .price-btn .price h2{
+    color:#F9BD4E;
+    font-size:36px;
+    margin-top:35px;
+}
+.product-single:hover{
+    box-shadow:0 0 0 0 #fff;
+    transition:.3s;
+}
+.product-single:hover .product-title{
+    color:#F9BD4E;
+}
+/* Women Jacket  */
+
+/* Footer Area  */
+.footer{
+    padding:20px 0;
+    background-color: #1d1919;
+}
+.footer-inner{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-widget{
+    max-width:30%;
+    flex:0 0 30%;
+    padding:30px 40px;
+}
+.footer-logo img{
+    width:100%;
+}
+.footer-logo .social li{
+    display: inline-block;
+    margin:5px;
+    position:relative;
+}
+.footer-logo p{
+    font-size:16px;
+    color:#ffffff;
+}
+.footer-logo .social li a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 13px;
+    padding: 13px;
+    margin: auto;
+    background: #F9BD4E;
+    color: #fff;
+    border-radius: 30px;
+}
+.footer-widget h2{
+    color:#F9BD4E;
+    font-size:24px;
+    text-transform:uppercase;
+}
+.quick-links ul li{
+    margin: 8px 0px;
+}
+.quick-links ul li a{
+    font-size:16px;
+    color:#fff;
+    font-weight:500;
+}
+.contact-info ul li a{
+    display: flex;
+    padding:5px 0px;
+}
+.contact-info ul li a p{
+    margin: 0 10px;
+    color:#fff;
+}
+.contact-info ul li a i{
+    color:#F9BD4E;
+}
+
+/* Footer Area  */
